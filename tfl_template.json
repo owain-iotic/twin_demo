@@ -1,0 +1,97 @@
+{
+    "version": "alpha-0.1",
+    "userdid": "setme",
+    "node": "setme",
+    "clientappid": "tflcarparks",
+    "clientref": "tflcarparks",
+    "items": [
+      {
+        "latitude": "setme",
+        "longitude": "setme",
+        "name": "setme",
+        "number": 0,
+        "tags": [
+          "cat_transport",
+          "tfl-carparks"
+        ],
+        "comments": [
+          {
+            "value": "tfl-carparks",
+            "lang": "en"
+          }
+        ],
+        "properties": [
+          {
+            "key": "http://data.iotics.com/ns/category",
+            "value": "http://data.iotics.com/category/CarPark"
+          }
+        ],
+        "labels": [
+          {
+            "value": "tfl-carparks",
+            "lang": "en"
+          }
+        ],
+        "points": [
+          {
+            "ID": "occupancy",
+            "pointmeta": [
+              {
+                "label": "pay_count",
+                "data_type": "decimal",
+                "comment": "total number of pay and display bays",
+                "unit": "http://purl.obolibrary.org/obo/UO_0000187"
+              },
+              {
+                "label": "pay_free",
+                "data_type": "decimal",
+                "comment": "total number of pay and display bays free",
+                "unit": "http://purl.obolibrary.org/obo/UO_0000187"
+              },
+              {
+                "label": "pay_occupied",
+                "data_type": "decimal",
+                "comment": "total number of pay and display bays occupied",
+                "unit": "http://purl.obolibrary.org/obo/UO_0000187"
+              },
+              {
+                "label": "disabled_count",
+                "data_type": "decimal",
+                "comment": "total number of disabled bays",
+                "unit": "http://purl.obolibrary.org/obo/UO_0000187"
+              },
+              {
+                "label": "disabled_free",
+                "data_type": "decimal",
+                "comment": "total number of disabled bays free",
+                "unit": "http://purl.obolibrary.org/obo/UO_0000187"
+              },
+              {
+                "label": "disabled_occupied",
+                "data_type": "decimal",
+                "comment": "total number of disabled bays occupied",
+                "unit": "http://purl.obolibrary.org/obo/UO_0000187"
+              }
+            ],
+            "pointtags": [
+              "cat_transport",
+              "tfl-carparks"
+            ],
+            "pointlabel": [
+              {
+                "value": "",
+                "lang": "en"
+              }
+            ],
+            "pointcomments": [
+              {
+                "lang": "en",
+                "value": ""
+              }
+            ],
+            "pointvalues": []
+          }
+        ]
+      }
+    ]
+  }
